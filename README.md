@@ -3,18 +3,20 @@ A tool for measuring setiment, well more of a playground trying out different te
 tweets and marks them as positive, negative, or neutral.
 
 # The Rough Plan
-* Pick a subject - Twitter handle - realdonaldtrump
-* Move through time and measure sentiment of tweet.
-* Calculate sentiment Value based off historical values with older values decaying in their influence on present value.
-* Record daily changes in sentiment.
+* Pick a subject - Twitter handle - realdonaldtrump - DONE
+* Move through time and measure sentiment of tweet. - DONE For Recent Tweets
+* Calculate sentiment Value based off historical values with older values decaying in their influence on present value. - NOT DONE
+* Record daily changes in sentiment. - NOT DONE
 
 
 # Setup
 
 ## Python
+```
 sudo virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## Java
 Download this file `http://nlp.stanford.edu/software/stanford-corenlp-full-2016-10-31.zip` in this directory `nlp/standford`.
