@@ -10,7 +10,6 @@ from easysettings import EasySettings
 settings = EasySettings('settings.txt')
 
 # Auth Twitter
-r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 api = twitter.Api(consumer_key=settings.get('CONSUMER_KEY'),
                   consumer_secret=settings.get('CONSUMER_SECRET'),
                   access_token_key=settings.get('ACCESS_TOKEN'),
