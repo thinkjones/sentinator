@@ -1,4 +1,0 @@
-easysettings
-python-twitter
-requests
-sh
