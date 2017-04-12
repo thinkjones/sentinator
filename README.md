@@ -54,3 +54,9 @@ Neutral: 8
 Negative: 19
 ```
 
+# Web App
+Deployed At: https://thinkjones.github.io/sentinator/#
+
+# Sources
+* https://medium.freecodecamp.com/serverless-rest-api-with-angular-persistence-and-security-ff274f04e3d0
+
